@@ -90,6 +90,7 @@ const App: FC = () => {
       return value.Id != e
     })
     setData(data3)
+    localStorage.setItem('data',JSON.stringify(data3))
   }
 
   return (
